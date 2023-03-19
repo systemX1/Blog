@@ -1,0 +1,6 @@
+/site
+/venv
+node_modules/
+.env
+*.log
+last_build_finish.txt

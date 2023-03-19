@@ -5,18 +5,19 @@ theme:
   features:
     - navigation.instant
 
-# nav:
-#     - Home: index.md
-#     - About: about.md
+markdown_extensions:
+  - nl2br
+  - footnotes
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
-# markdown_extensions:
-#   - footnotes
-#   - meta
+plugins:
+  - search
+  - callouts
+  - git-revision-date
 
-# plugins:
-#   - search
-#   - git-revision-date
-
-# copyright: 'Copyleft. All wrongs reversed.<br/><a href="https://beian.miit.gov.cn">冀ICP备2021025718号</a> | <a href="http://www.beian.gov.cn/">川公安网备51012202001103号</a>'
+copyright: 'Copyleft. All wrongs reversed.'
 
 
